@@ -1,0 +1,26 @@
+html, body, div, span, 
+h1, h2, h3, h4, p,
+a, i, ul, li
+ {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1.5;
+    color: #3F5D45;
+}
+ol, ul {
+	list-style: none;
+}
+img {
+    vertical-align: top;
+}
+a{
+	text-decoration: none;
+	color: #3F5D45;
+}
