@@ -24,7 +24,8 @@ header{
 }
 .menu .menu_item a{
     padding: 10px 60px 8px 0;
-    /* font-size: 16px; */
+    display: block;
+    font-size: 20px;
     /* font-weight: bold; */
 }
 .menu .menu_item a:hover{
@@ -32,10 +33,11 @@ header{
     /* color: #EAF0ED; */
     font-weight: bold;
 }
-.menu .menu_item a:last-child{
+.menu .menu_item:last-child a{
     padding-left: 20px;
     padding-right: 0;
     font-size: 24px;
+    line-height: 24px;
 }
 .menu .menu_item a:last-child:hover{
     opacity: 0.9;
@@ -166,6 +168,7 @@ header{
     top: 20px;
     right: 18px;
 }
+
 
 .pagination{
     display: flex;
